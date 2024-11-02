@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css" />
+    </head>
+    
+    <body>
+        <form action="RegistroUsuario" method="post">
+            <label> Nombres:</label>
+            <input type="text" name="nombres"><br><br>
+            <label> Apellidos:</label>
+            <input type="text" name="apellidos"><br><br>
+            <label> Tipo de Documento:</label>
+            <select name="tipoDocumento">
+                <option value="Cedula de Ciudadania">CC</option>
+                <option value="Tarjeta de Identidad">TI</option>
+                <option value="Cedula de Extranjeria">CE</option>
+            </select><br><br>
+            <label> Número de Documento:</label>
+            <input type="text" name="numeroDocumento"><br><br>
+            <label> Celular:</label>
+            <input type="text" name="celular"><br><br>
+            <label> Dirección:</label>
+            <input type="text" name="direccion"><br><br>
+            <label> Fecha de nacimiento:</label>
+            <input type="date" name="fechaNacimiento"><br><br>
+            <label> Fecha de ingreso:</label>
+            <input type="date" name="fechaIngreso"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
